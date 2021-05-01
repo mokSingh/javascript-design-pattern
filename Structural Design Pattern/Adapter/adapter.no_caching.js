@@ -36,7 +36,7 @@ class VectorRectangle extends VectorObject
     this.push(new Line(new Point(x,y), new Point(x+width, y) ));
     this.push(new Line(new Point(x+width,y), new Point(x+width, y+height) ));
     this.push(new Line(new Point(x,y), new Point(x, y+height) ));
-    this.push(new Line(new Point(x,y+height), new Point(x+width, y+height) ));this.push
+    this.push(new Line(new Point(x,y+height), new Point(x+width, y+height) ));
   }
 }
 
